@@ -1,2 +1,2 @@
 # apc
-repositorio daniel augusto turma de apc
+Este projeto calcula uma Progressão Aritmética usando o Little Man Computer
