@@ -1,0 +1,20 @@
+LDA   INICIO    
+LOOP    OUT             
+        ADD   RAZAO     
+        STA   ATUAL     
+        
+        LDA   CONT      
+        SUB   UM        
+        STA   CONT      
+        BRZ   FIM       
+        
+        LDA   ATUAL     
+        BRA   LOOP      
+
+FIM     HLT             
+
+INICIO  DAT   2         
+RAZAO   DAT   3         
+UM      DAT   1         
+CONT    DAT   5         
+ATUAL   DAT   0
